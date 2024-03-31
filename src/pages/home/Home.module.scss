@@ -1,0 +1,9 @@
+.home {
+    display: grid;
+    padding: 1.5rem;
+    grid-template-columns: 2fr 1fr;
+    & h1 {
+        display: block;
+        grid-column: 1 / 3;
+    }
+}
